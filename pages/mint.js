@@ -62,9 +62,7 @@ export default function Mint() {
     console.error(error)
   })
   }
-
 //
-
   async function signOut() {
     setSignedIn(false)
   }
@@ -103,7 +101,6 @@ export default function Mint() {
             .on('transactionHash', function(hash){
               console.log("transactionHash", hash)
             })
-          
     } else {
         console.log("Wallet not connected")
     }
