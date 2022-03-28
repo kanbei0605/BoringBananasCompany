@@ -107,10 +107,6 @@ export default function Mint() {
     
   };
 
-  
-
-
-
   return (
     <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -118,8 +114,7 @@ export default function Mint() {
         <link rel="icon" href="/images/favicon.jpg" />
 
         <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
-        <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="ogdesc" />
+        <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS bananas out known to man." key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
         <meta property="og:url" content="https://boringbananas.co/" key="ogurl"/>
         <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
@@ -129,11 +124,9 @@ bananas out known to man." key="ogdesc" />
         <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
         <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
         <meta name="twitter:title" content="Boring Bananas Co." key="twtitle" />
-        <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="twdesc" />
+        <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS bananas out known to man." key="twdesc" />
         <meta name="twitter:image" content="https://boringbananas.co/images/Hola.gif" key="twimage" />
       </Head>
-
 
       <div >
           <div className="flex items-center justify-between w-full border-b-2	pb-6">
@@ -159,7 +152,6 @@ bananas out known to man." key="twdesc" />
 
         <div className="md:w-2/3 w-4/5">
        
-        
           <div className="mt-6 border-b-2 py-6">
 
             <div className="flex flex-col items-center">
@@ -170,14 +162,14 @@ bananas out known to man." key="twdesc" />
                   <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">GIMME</span>
                   
                   <input 
-                                      type="number" 
-                                      min="1"
-                                      max="20"
-                                      value={how_many_bananas}
-                                      onChange={ e => set_how_many_bananas(e.target.value) }
-                                      name="" 
-                                      className="Poppitandfinchsans pl-4 text-4xl  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"
-                                  />
+                    type="number" 
+                    min="1"
+                    max="20"
+                    value={how_many_bananas}
+                    onChange={ e => set_how_many_bananas(e.target.value) }
+                    name="" 
+                    className="Poppitandfinchsans pl-4 text-4xl  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"
+                  />
                   
                   <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">BANANAS!</span>
     
