@@ -9,8 +9,7 @@ export default function Home() {
         <link rel="icon" href="/images/favicon.jpg" />
 
         <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
-        <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="ogdesc" />
+        <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS bananas out known to man." key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
         <meta property="og:url" content="https://boringbananas.co/" key="ogurl"/>
         <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
@@ -20,12 +19,9 @@ bananas out known to man." key="ogdesc" />
         <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
         <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
         <meta name="twitter:title" content="Boring Bananas Co." key="twtitle" />
-        <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS
-bananas out known to man." key="twdesc" />
+        <meta name="twitter:description" content="Here at boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS bananas out known to man." key="twdesc" />
         <meta name="twitter:image" content="https://boringbananas.co/images/Hola.gif" key="twimage" />
       </Head>
-
-
       <div >
           <div className="flex items-center justify-between w-full border-b-2	pb-6">
             <a href="/" className=""><img src="images/Hola.gif" width="108" alt="" className="logo-image" /></a>
@@ -45,8 +41,6 @@ bananas out known to man." key="twdesc" />
         </div>
 
         <div className="md:w-2/3 w-4/5 " id="about">
-       
-        
           <div className="mt-6 border-b-2 py-6">
             <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
                   <div className="lg:w-1/2 w-3/4">
@@ -57,22 +51,13 @@ bananas out known to man." key="twdesc" />
                     <strong>LAUNCH DATE:</strong> 29 June 2021. 2pm EST. <br />‍
                     <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 8888</strong> Bananas.<br/><strong>PRICE: 0.025 ETH </strong>each.</span></p>
                     <iframe src="https://free.timeanddate.com/countdown/i7vcex5b/n107/cf11/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fn3/fs100/szw448/szh189/iso2021-06-29T21:00:00" allowtransparency="true" frameBorder="0" width="425" height="25"></iframe>
-
                   </div>
                   <img className="lg:w-1/2 w-3/4" src="images/Hola.gif" width="500px" />
             </div>
             <div className="flex flex-col items-center">
-
             <a href="/mint" className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">GO TO MINTING PAGE!</a>
-                
-                
             </div> 
             </div>
-
-
-
-    
-
                 <div id="traits" className="flex flex-wrap justify-around items-center  mx-6 py-6">
                   <div className="border-4 border-blue-300 p-4"><img src="images/Traits4.gif" alt="" width="400px" className="feature-image"/></div>
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
