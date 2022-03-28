@@ -112,14 +112,12 @@ export default function Mint() {
       <Head>
         <title>Boring Bananas Company</title>
         <link rel="icon" href="/images/favicon.jpg" />
-
         <meta property="og:title" content="Boring Bananas Co." key="ogtitle" />
         <meta property="og:description" content="Here at Boring Bananas company, we specialise in the world's finest digital bananas. We've put together a team spanning 3 continents, to bring you some of the most ‍NUTRITIOUS and DELICIOUS bananas out known to man." key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
         <meta property="og:url" content="https://boringbananas.co/" key="ogurl"/>
         <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
         <meta property="og:site_name" content="https://boringbananas.co/" key="ogsitename" />
-
         <meta name="twitter:card" content="summary_large_image" key="twcard"/>
         <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
         <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
@@ -141,7 +139,6 @@ export default function Mint() {
               <a href="https://twitter.com/boringbananasco" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
               <a href="https://discord.gg/8Wk9Hp6UyV" className="text-4xl  hover:text-white m-6 text-blau">DISCORD</a>
             </nav>
-             
           </div>
           <div className="flex auth my-8 font-bold  justify-center items-center vw2">
             {!signedIn ? <button onClick={signIn} className="montserrat inline-block border-2 border-black bg-white border-opacity-100 no-underline hover:text-black py-2 px-4 mx-4 shadow-lg hover:bg-blue-500 hover:text-gray-100">Connect Wallet with Metamask</button>
@@ -149,18 +146,12 @@ export default function Mint() {
             <button onClick={signOut} className="montserrat inline-block border-2 border-black bg-white border-opacity-100 no-underline hover:text-black py-2 px-4 mx-4 shadow-lg hover:bg-blue-500 hover:text-gray-100">Wallet Connected: {walletAddress}</button>}
           </div>
         </div>
-
         <div className="md:w-2/3 w-4/5">
-       
           <div className="mt-6 border-b-2 py-6">
-
             <div className="flex flex-col items-center">
-
                 <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none my-4 ">TOTAL BANANAS MINTED:  <span className="text-blau text-6xl"> {!signedIn ?  <>-</>  :  <>{totalSupply}</> } / 8888</span></span>
-
                 <div id="mint" className="flex justify-around  mt-8 mx-6">
                   <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">GIMME</span>
-                  
                   <input 
                     type="number" 
                     min="1"
@@ -170,20 +161,15 @@ export default function Mint() {
                     name="" 
                     className="Poppitandfinchsans pl-4 text-4xl  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"
                   />
-                  
                   <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">BANANAS!</span>
-    
                 </div>
                 {saleStarted ? 
                 <button onClick={() => mintBanana(how_many_bananas)} className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_bananas} bananas for {(bananaPrice * how_many_bananas) / (10 ** 18)} ETH + GAS</button>        
                   : <button className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
-            
               }
-                
             </div> 
-            </div>
- 
-          </div>  
+          </div>
+        </div>  
     </div>  
     )
   }
