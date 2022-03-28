@@ -141,7 +141,7 @@ export default function Home() {
                     Or alternatively, join our <a className="text-black underline font-bold" target="_blank" href="https://discord.gg/8Wk9Hp6UyV">Discord Server</a>.
                     </p>
                   </div>
-              </div>   
+               </div>   
           </div>  
     </div>  
     )
